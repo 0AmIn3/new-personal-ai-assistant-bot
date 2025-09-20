@@ -1,0 +1,108 @@
+{
+  "owners": [
+    {
+      "id": "1753632682441",
+      "telegramGroupId": "-1002765433923",
+      "groupTitle": "Demo Assistant Group",
+      "username": "cntz_001",
+      "chatId": 822604348,
+      "createdAt": "2025-07-27T16:11:22.441Z"
+    },
+    {
+      "id": "1753634431358",
+      "telegramGroupId": "-1002765433923",
+      "groupTitle": "Demo Assistant Group",
+      "username": "SBatirov",
+      "chatId": 558149347,
+      "createdAt": "2025-07-27T16:40:31.358Z"
+    }
+  ],
+  "users": [
+    {
+      "username": "SBatirov",
+      "name": "Saparboy",
+      "chatId": 558149347,
+      "isOwner": true,
+      "createdAt": "2025-07-27T12:37:50.119Z"
+    },
+    {
+      "username": "cntz_001",
+      "name": "Amin",
+      "chatId": 822604348,
+      "isOwner": true,
+      "createdAt": "2025-07-27T14:07:34.383Z"
+    },
+    {
+      "username": "husan_kazakov",
+      "name": "Husan",
+      "chatId": 325429573,
+      "isOwner": false,
+      "createdAt": "2025-08-18T07:55:03.776Z"
+    }
+  ],
+  "employees": [
+    {
+      "ownerId": "1753632682441",
+      "step": "password",
+      "userId": 558149347,
+      "username": "SBatirov",
+      "firstName": "Saparboy",
+      "email": "saparboy.batirov@gmail.com",
+      "plankaUserId": "1525374615210165249",
+      "isExistingUser": true,
+      "telegramUserId": "558149347",
+      "telegramChatId": "558149347",
+      "registrationDate": "2025-07-27T16:26:31.244Z",
+      "groupId": "-1002765433923",
+      "groupTitle": "Demo Assistant Group",
+      "name": "Saparboy"
+    },
+    {
+      "ownerId": "1753634431358",
+      "step": "password",
+      "userId": 822604348,
+      "username": "cntz_001",
+      "firstName": "Amin",
+      "email": "sardorbek@hokimiyat.uz",
+      "plankaUserId": "1532833316535797188",
+      "isExistingUser": true,
+      "telegramUserId": "822604348",
+      "telegramChatId": "822604348",
+      "registrationDate": "2025-07-27T16:55:59.194Z",
+      "groupId": "-1002765433923",
+      "groupTitle": "Demo Assistant Group",
+      "name": "Amin"
+    }
+  ],
+  "taskSessions": [],
+  "taskHistory": [
+    {
+      "sessionId": "558149347_558149347_1753634644540",
+      "cardId": "1563997860725262306",
+      "createdAt": "2025-07-27T16:44:34.315Z",
+      "creator": "SBatirov",
+      "title": "Иккинчи объект бўйича ҳисобот",
+      "priority": "Средний приоритет",
+      "category": "Документация"
+    },
+    {
+      "sessionId": "822604348_822604348_1753635172666",
+      "cardId": "1564002238202906602",
+      "createdAt": "2025-07-27T16:53:16.006Z",
+      "creator": "cntz_001",
+      "title": "Иккинчи объект бўйича ҳисобот",
+      "priority": "Средний приоритет",
+      "category": "документация"
+    },
+    {
+      "sessionId": "822604348_822604348_1753635482649",
+      "cardId": "1564004706735359990",
+      "createdAt": "2025-07-27T16:58:10.318Z",
+      "creator": "cntz_001",
+      "title": "Hisobot: Ikkinchi obyekt bo'yicha",
+      "priority": "Средний приоритет",
+      "category": "документация"
+    }
+  ],
+  "sentNotifications": []
+}
