@@ -1,35 +1,61 @@
 {
-  "name": "planka-telegram-integration",
-  "version": "1.0.0",
-  "description": "Planka + Telegram Bot Integration with AI Task Creation",
-  "main": "index.js",
+  "name": "tg-assistant-v2",
+  "version": "2.0.0",
+  "description": "Telegram Task Management Assistant with Planka integration",
+  "main": "dist/apps/work-bot.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
-  },
-  "dependencies": {
-    "axios": "^1.9.0",
-    "dotenv": "^16.5.0",
-    "express": "^4.21.2",
-    "form-data": "^4.0.3",
-    "node-cron": "^4.1.0",
-    "node-telegram-bot-api": "^0.61.0",
-    "openai": "^5.1.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22"
+    "dev": "tsx watch src/apps/work-bot.ts",
+    "dev:reg": "tsx watch src/apps/reg-bot.ts",
+    "build": "tsc",
+    "start": "node dist/apps/work-bot.js",
+    "start:reg": "node dist/apps/reg-bot.js",
+    "start:all": "npm run start & npm run start:reg",
+    "clean": "rm -rf dist",
+    "lint": "eslint src --ext .ts",
+    "test": "jest",
+    "migrate": "tsx scripts/migrate.ts",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
-    "planka",
     "telegram",
     "bot",
-    "ai",
-    "kanban",
-    "task-management"
+    "task-management",
+    "planka",
+    "typescript"
   ],
   "author": "",
   "license": "MIT",
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "better-sqlite3": "^9.2.2",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "mime-types": "^2.1.35",
+    "nanoid": "^3.3.7",
+    "node-cron": "^3.0.3",
+    "pino": "^8.17.2",
+    "telegraf": "^4.15.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.8",
+    "@types/form-data": "^2.5.0",
+    "@types/mime-types": "^2.1.4",
+    "@types/node": "^20.10.5",
+    "@types/node-cron": "^3.0.11",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "pino-pretty": "^10.3.1",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3"
+  },
+  "optionalDependencies": {
+    "@types/jest": "^29.5.11",
+    "ts-jest": "^29.1.1"
   }
 }
