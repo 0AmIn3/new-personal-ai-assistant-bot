@@ -1,6 +1,6 @@
 {
   "name": "tg-assistant-v2",
-  "version": "2.0.0",
+  "version": "20.17.0",
   "description": "Telegram Task Management Assistant with Planka integration",
   "main": "dist/apps/work-bot.js",
   "scripts": {
